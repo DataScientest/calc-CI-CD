@@ -1,4 +1,4 @@
-name: Update Docker application
+name: Update Docker app-calc
 
 on:
   push:
