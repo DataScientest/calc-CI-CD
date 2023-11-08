@@ -1,6 +1,6 @@
 """
-Un script python prenant 3 arguments dont le premier est l'opération voulue et les deux suivants 
-les deux entiers 
+Un script python prenant 3 arguments dont le premier est l'opération voulue et les deux suivants
+les deux entiers
 """
 
 import calc
@@ -24,5 +24,5 @@ def run_calc():
     print("Nous allons recommencer le programme\n")
     run_calc()
 
-
-run_calc()
+if __name__ == "__main__":
+    run_calc()
